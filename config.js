@@ -20,7 +20,7 @@ module.exports = {
   AUTHOR: process.env.AUTHOR || "𝐂𝐘𝐁𝐄𝐑𝐗𝐊𝐈𝐃",
   DATABASE: DATABASE_URL === './database.db' ? new Sequelize({ dialect: 'sqlite', storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
   BOT_INFO: process.env.BOT_INFO || '𝘈𝘮𝘢𝘳𝘰𝘬;𝘊𝘺𝘣𝘦𝘳𝘹𝘬𝘪𝘥;0;https://i.imgur.com/w5wr6c1.jpeg;https://chat.whatsapp.com/I3aOiLY2Ydc258VkV7p0Md',
-  SUDO: process.env.SUDO || "27686881509",
+  SUDO: process.env.SUDO || "919728714060",
   SONG_DWNLD: process.env.SONGDWNLD || "Song Is Downloading Wait...!",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
